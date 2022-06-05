@@ -1074,16 +1074,16 @@ ul.show {
 
   .text_rosadito {
     position: relative;
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 8pt;
+    line-height: 10px;
     left: 13%;
     margin-top: 175px;
   }
 
   .text_metro1_ {
     position: relative;
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 8pt;
+    line-height: 10px;
     width: 340px;
     left: 13%;
     margin-top: 175px;
@@ -1091,8 +1091,8 @@ ul.show {
 
   .container_icono-tr {
     width: 50%;
-    top: 200px;
-    left: -49%;
+    top: 170px;
+    left: -50%;
     position: absolute;
   }
 
@@ -1114,26 +1114,24 @@ ul.show {
 
   .container_icono-dq {
     width: 50%;
-    top: 450px;
+    top: 350px;
     left: -50%;
     position: absolute;
   }
 
   .text_rosadito_a {
     position: relative;
-    font-size: 12px;
-    line-height: 15px;
-    width: 340px;
-    left: 10%;
+    font-size: 8pt;
+    line-height: 9px;
+    left: 5%;
     margin-top: 175px;
   }
 
   .text_metro3_ {
     position: relative;
-    font-size: 11px;
-    line-height: 13px;
-    width: 340px;
-    left: 10%;
+    font-size: 8pt;
+    line-height: 10p;
+    left: 5%;
     margin-top: 175px;
   }
 
