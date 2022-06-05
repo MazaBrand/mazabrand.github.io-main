@@ -730,11 +730,6 @@ ul.show {
     margin-top: 700px;
   }
 
-
-
-
-
-
   .footer_all {
     margin-top: 3000px;
     height: 136px;
@@ -825,4 +820,139 @@ ul.show {
   }
 
 
+}
+
+@media  screen and (max-width: 980px) {
+  .container {
+    width: 80%;
+  }
+  .footer_all {
+    width: 100%;
+  }
+  
+  .text_one {
+    font-size: 21pt;
+    line-height: 33px;
+    width: 340px;
+    margin-top: -20px;
+    left: 45%;
+  }
+
+  .text_pap {
+    font-size: 16pt;
+    line-height: 25px;
+    width: 340px;
+    left: 45%;
+    margin-top: -105px;
+  }
+
+  .btn_container {
+    margin-top: -100px;
+    left: 45%;
+  }
+
+  .container_images2 {
+    width: 400px;
+    height: 400px;
+    left: 37%;
+    margin-top: -60px;
+  }
+
+  .text_ss {
+    font-size: 21pt;
+    margin-top: 365px;
+    left: 37%;
+  }
+
+  .text_s  {
+    font-size: 27pt;
+    line-height: 29pt;
+    margin-top: 365px;
+    left: 37%;
+  }
+
+  .pap_s {
+    left: 37%;
+    margin-top: 365px;
+  }
+
+  .btn2 {
+    left: 37%;
+    margin-top: 365px;
+  }
+
+  .container_icono-te {
+    width: 23%;
+    top: 150px;
+    left: -2%;
+    position: absolute;
+  }
+
+  .text_rosadito {
+    position: relative;
+    font-size: 12px;
+    line-height: 14px;
+    width: 340px;
+    left: 13%;
+    margin-top: 175px;
+  }
+
+  .text_metro1_ {
+    position: relative;
+    font-size: 12px;
+    line-height: 14px;
+    width: 340px;
+    left: 13%;
+}
+
+ .container_icono-tr {
+  width: 23%;
+  top: 150px;
+  left: 20%;
+  position: absolute;
+ }
+
+ .text_azulito {
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  width: 340px;
+  left: 13%;
+  margin-top: 175px;
+ }
+
+ .text_metro2_ {
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  width: 340px;
+  left: 13%;
+  margin-top: 175px;
+ }
+
+ .container_icono-dq {
+  width: 23%;
+  top: 150px;
+  left: 63%;
+  position: absolute;
+ }
+ .text_rosadito_a {
+  position: relative;
+  font-size: 11px;
+  line-height: 14px;
+  width: 340px;
+  left: 13%;
+  margin-top: 175px;
+ }
+
+ .text_metro3_ {
+  position: relative;
+  font-size: 11px;
+  line-height: 14px;
+  width: 340px;
+  left: 13%;
+  margin-top: 175px;
+ }
+
+ 
 }
