@@ -6,7 +6,7 @@
 
   body {
     font-family: "Metropolis";
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
   }
   /* Menus (Blog, Nosotros, home, etc) */
   .menu {
@@ -80,3 +80,5 @@
   ul.show {
     top: 65px;
   }
+
+
