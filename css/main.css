@@ -1066,62 +1066,62 @@ ul.show {
   }
 
   .container_icono-te {
-    width: 50%;
-    top: -10px;
-    left: 5%;
+    width: 65%;
+    top: -40px;
+    left: -5%;
     position: absolute;
   }
 
   .text_rosadito {
     position: relative;
-    font-size: 8pt;
-    line-height: 10px;
+    font-size: 10pt;
+    line-height: 12px;
     left: 13%;
     margin-top: 175px;
   }
 
   .text_metro1_ {
     position: relative;
-    font-size: 8pt;
-    line-height: 10px;
+    font-size: 10pt;
+    line-height: 12px;
     width: 340px;
     left: 13%;
     margin-top: 175px;
   }
 
   .container_icono-tr {
-    width: 50%;
+    width: 60%;
     top: 170px;
-    left: -50%;
+    left: -55%;
     position: absolute;
   }
 
   .text_azulito {
     position: relative;
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 13px;
+    line-height: 14px;
     left: 8%;
     margin-top: 175px;
   }
 
   .text_metro2_ {
     position: relative;
-    font-size: 11px;
-    line-height: 13px;
+    font-size: 13px;
+    line-height: 14px;
     left: 8%;
     margin-top: 175px;
   }
 
   .container_icono-dq {
-    width: 50%;
-    top: 350px;
-    left: -50%;
+    width: 65%;
+    top: 360px;
+    left: -53%;
     position: absolute;
   }
 
   .text_rosadito_a {
     position: relative;
-    font-size: 8pt;
+    font-size: 11pt;
     line-height: 9px;
     left: 5%;
     margin-top: 175px;
@@ -1129,7 +1129,7 @@ ul.show {
 
   .text_metro3_ {
     position: relative;
-    font-size: 8pt;
+    font-size: 11pt;
     line-height: 10p;
     left: 5%;
     margin-top: 175px;

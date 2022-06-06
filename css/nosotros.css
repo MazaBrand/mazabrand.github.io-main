@@ -1,0 +1,82 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Metropolis";
+    overflow-x: hidden;
+  }
+  /* Menus (Blog, Nosotros, home, etc) */
+  .menu {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Logo */
+  .logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    padding: 0 80px;
+  }
+  /* Menu de navegacion */
+  .menu-items {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+  /* Item de menu */
+  .menu-items li {
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+  /* Item de menu nombres (Home, blog, etc) */
+  .menu-items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: #1D1D1B;
+    position: relative;
+  }
+  /* Items de menu despues de pasar el cursor */
+  .menu-items li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: .1rem;
+    background: #FF80CC;
+    transition: .5s;
+  
+  }
+  
+  .menu-items li:hover a {
+    color: #3ecaed;
+  } 
+  
+  .menu-items li:hover a::before {
+    width: 100%;
+  }
+  
+  .menu-items li:hover a::after {
+    width: 100%;
+  }
+  
+  
+  /* Botones */
+  .btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: #3ecaed;
+    cursor: pointer;
+    display: none;
+  }
+  /* Como se vera el menu */
+  ul.show {
+    top: 65px;
+  }
