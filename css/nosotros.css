@@ -1,84 +1,186 @@
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: "Metropolis";
-    /*overflow-x: hidden;*/
-  }
-  /* Menus (Blog, Nosotros, home, etc) */
-  .menu {
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  /* Logo */
-  .logo {
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(10, 10, 10);
-    padding: 0 80px;
-  }
-  /* Menu de navegacion */
-  .menu-items {
-    display: flex;
-    list-style: none;
-    margin-right: 20px;
-  }
-  /* Item de menu */
-  .menu-items li {
-    border-radius: 10px;
-    margin: 0 5px;
-  }
-  /* Item de menu nombres (Home, blog, etc) */
-  .menu-items li a {
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
-    color: #1D1D1B;
-    position: relative;
-  }
-  /* Items de menu despues de pasar el cursor */
-  .menu-items li a::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: .1rem;
-    background: #FF80CC;
-    transition: .5s;
-  
-  }
-  
-  .menu-items li:hover a {
-    color: #3ecaed;
-  } 
-  
-  .menu-items li:hover a::before {
-    width: 100%;
-  }
-  
-  .menu-items li:hover a::after {
-    width: 100%;
-  }
-  
-  
-  /* Botones */
-  .btn_menu {
-    margin-right: 30px;
-    font-size: 25px;
-    color: #3ecaed;
-    cursor: pointer;
-    display: none;
-  }
-  /* Como se vera el menu */
-  ul.show {
-    top: 65px;
-  }
+body {
+  font-family: "Metropolis";
+  /*overflow-x: hidden;*/
+}
+/* Menus (Blog, Nosotros, home, etc) */
+.menu {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Logo */
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  padding: 0 80px;
+}
+/* Menu de navegacion */
+.menu-items {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+/* Item de menu */
+.menu-items li {
+  border-radius: 10px;
+  margin: 0 5px;
+}
+/* Item de menu nombres (Home, blog, etc) */
+.menu-items li a {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: #1d1d1b;
+  position: relative;
+}
+/* Items de menu despues de pasar el cursor */
+.menu-items li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0.1rem;
+  background: #ff80cc;
+  transition: 0.5s;
+}
+
+.menu-items li:hover a {
+  color: #3ecaed;
+}
+
+.menu-items li:hover a::before {
+  width: 100%;
+}
+
+.menu-items li:hover a::after {
+  width: 100%;
+}
+
+/* Botones */
+.btn_menu {
+  margin-right: 30px;
+  font-size: 25px;
+  color: #3ecaed;
+  cursor: pointer;
+  display: none;
+}
+/* Como se vera el menu */
+ul.show {
+  top: 65px;
+}
+
+.image_nosotros {
+  padding-left: 165px;
+}
+
+.image_nosotros img {
+  width: 1028px;
+  height: 509px;
+}
+
+.text_encabezado_nt {
+  padding-left: 165px;
+  padding-top: 60px;
+}
+
+.text_encabezado_nt1 {
+  font-size: 29px;
+  width: 400px;
+  line-height: 30px;
+  font-family: "Metropolis";
+  font-weight: 700;
+}
+
+.text_encabezado_pap_nt {
+  padding-left: 210px;
+  padding-top: 30px;
+}
+
+.text_encabezado_pap_nt1 {
+  font-size: 16px;
+  width: 400px;
+  line-height: 19px;
+  font-family: "Metropolis";
+  font-weight: 500;
+  color: #ff80cc;
+}
+
+.discurso_nt {
+  padding-left: 165px;
+  padding-top: 50px;
+}
+
+.text_disc1 {
+  width: 980px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #575756;
+}
+
+.text_disc2 {
+  margin-top: 30px;
+  width: 980px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #575756;
+}
+
+.text_disc3 {
+  margin-top: 30px;
+  width: 930px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #575756;
+}
+
+.text_disc4 {
+  margin-top: 30px;
+  width: 980px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #575756;
+}
+
+.equipo {
+  padding-left: 620px;
+  margin-top: 100px;
+}
+
+.text_equipo {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.line_equipo {
+  position: absolute;
+  width: 66px;
+  height: 1px;
+  margin-left: 30px;
+  top: 1415px;
+  background: #ff80cc;
+}
+
 
 
