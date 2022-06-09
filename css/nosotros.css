@@ -109,9 +109,10 @@ ul.show {
 }
 
 .text_encabezado_pap_nt1 {
-  font-size: 16px;
-  width: 400px;
-  line-height: 19px;
+  font-size: 21px;
+  width: 503px;
+  height: 65px;
+  line-height: 24px;
   font-family: "Metropolis";
   font-weight: 500;
   color: #ff80cc;
@@ -127,7 +128,8 @@ ul.show {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 21px;
+  line-height: 24px;
   color: #575756;
 }
 
@@ -137,7 +139,8 @@ ul.show {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 21px;
+  line-height: 24px;
   color: #575756;
 }
 
@@ -147,7 +150,8 @@ ul.show {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 21px;
+  line-height: 24px;
   color: #575756;
 }
 
@@ -157,7 +161,8 @@ ul.show {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 21px;
+  line-height: 24px;
   color: #575756;
 }
 
@@ -178,15 +183,95 @@ ul.show {
   width: 66px;
   height: 1px;
   margin-left: 30px;
-  top: 1415px;
+  top: 1370px;
   background: #ff80cc;
 }
 
 
 .equipo_lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 70px;
 }
 
+
+.imagen_diseñador {
+  margin-left: 12%;
+  margin-top: 50px;
+}
+
+.imagen_dev {
+  margin-left: 12%;
+  margin-top: 100px;
+}
+
+
+.bio_diseñador {
+  position: relative;
+  margin-left: 50%;
+  margin-top: -240px;
+}
+
+.bio_text_desing {
+  width: 460px;
+  font-size: 25px;
+  line-height: 28px;
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-style: normal;
+  color: #575756;
+} 
+
+.pp_desing {
+  position: relative;
+  margin-top: 41px;
+  color: #FF80CC;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.pp_desing2 {
+  position: relative;
+  margin-top: 5px;
+  color: #47AAF4;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.bio_dev {
+  position: relative;
+  margin-left: 50%;
+  margin-top: -240px;
+}
+
+.bio_text_dev {
+  width: 460px;
+  font-size: 25px;
+  line-height: 28px;
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-style: normal;
+  color: #575756;
+}
+
+.mat_name {
+  position: relative;
+  margin-top: 71px;
+  color: #FF80CC;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.text_dev {
+  position: relative;
+  margin-top: 5px;
+  color: #47AAF4;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
