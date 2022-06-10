@@ -80,3 +80,112 @@ body {
 ul.show {
   top: 65px;
 }
+
+
+
+.text_encabezado_1 {
+  align-items: center;
+  align-content: center;
+}
+
+.text {
+  margin-top: 50px;
+  margin-left: 130px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.pp_txt {
+  margin-top: 15px;
+  margin-left: 130px;
+  font-size: 22px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  color: #FF80CC;
+}
+
+.pp_text2 {
+  width: 600px;
+  margin-top: -129px;
+  margin-left: 750px;
+  font-size: 23px;
+  line-height: 25px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  color: #575756;
+}
+
+
+
+.mapa {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 610px;
+}
+.caja_ {
+  margin-left: 310px;
+  width: 300px;
+  height: 460px;
+  background-color: #FF80CC;
+}
+.caja {
+  margin-top: -480px;
+}
+.text_mapa {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+.pp_datos {
+  font-size: 35px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  
+  margin-left: 240px;
+  margin-top: -120px;
+}
+.pp_datos2 {
+  font-style: 15px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  color: #575756;
+
+  margin-left: 240px;
+  margin-top: 35px;
+  width: 180px;
+}
+.pp_datos3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  color: #575756;
+
+  margin-left: 240px;
+  margin-top: 35px;
+}
+.pp_datos4 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  color: #575756;
+
+  margin-left: 240px;
+}
+.pp_datos5 {
+  font-size: 15px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  color: #575756;
+
+  margin-left: 240px;
+  margin-top: 40px;
+  width: 23%;
+}
