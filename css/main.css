@@ -356,6 +356,14 @@ ul.show {
   height: 100%;
 }
 
+.btn_container3 {
+  position: absolute;
+  width: 220px;
+  height: 37.85px;
+  left: 120px;
+  top: 1830px;
+}
+
 
 /* Quinto pie de pagina - Blog*/
 
@@ -678,13 +686,9 @@ ul.show {
 
   .btn_container3 {
     margin-top: -30px;
+    margin-left: 100px;
   }
-
-  .btn_seccion3 {
-    margin-top: 660px;
-    left: 23%;
-  }
-
+  
   .container_blog_encabezado {
     margin-top: -30px;
   }
