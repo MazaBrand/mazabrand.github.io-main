@@ -20,3 +20,17 @@ setInterval(function(){
         counter = 1;
     }
 }, 5000);
+
+//# Email Validation
+
+const $form = document.querySelector('#form')
+const $buttonMailto = document.querySelector('#trucazo')
+
+$form.addEventListener('submit', handleSubmit)
+
+function handleSubmit(event) {
+  event.preventDefault()
+  const form = new FormData(this)
+  $buttonMailto.setAttribute('href', `mailto:hola@mazabrand.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+  $buttonMailto.click()
+}

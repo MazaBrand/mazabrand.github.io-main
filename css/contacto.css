@@ -189,3 +189,127 @@ ul.show {
   margin-top: 40px;
   width: 23%;
 }
+
+
+.formulario {
+  align-items: center;
+  align-content: center;
+}
+
+.pp_ {
+  margin-top: 70px;
+  margin-left: 575px;
+  font-size: 25px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  color: #1D1D1B;
+}
+#form {
+  margin-top: -100px;
+  margin-left: 275px;
+}
+
+#name {
+  margin-top: 60px;
+  margin-left: -205px;
+  width:600px;
+  height: 60px;
+  background-color: #E6F7FF;
+  border: 1px solid #E6F7FF;
+  outline: none;
+}
+
+#name::placeholder {
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+#empresa {
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 600px;
+  height: 60px;
+  background-color: #E6F7FF;
+  border: 1px solid #E6F7FF;
+  outline: none;
+}
+
+#empresa::placeholder {
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#email {
+  margin-top: 10px;
+  margin-left: -205px;
+  width:600px;
+  height: 60px;
+  background-color: #E6F7FF;
+  border: 1px solid #E6F7FF;
+  outline: none;
+}
+
+#email::placeholder {
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#telefono {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 600px;
+  height: 60px;
+  background-color: #E6F7FF;
+  border: 1px solid #E6F7FF;
+  outline: none;
+}
+
+#telefono::placeholder {
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#message {
+  margin-left: -205px;
+  margin-top: 10px;
+  background-color: #E6F7FF;
+  border: 1px solid #E6F7FF;
+}
+
+#message::placeholder {
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-primary-full {
+  background-color: #FF80CC;
+  width: 145px;
+  height: 66px;
+  border: 1px solid #FF80CC;
+  outline: none;
+  margin-left: 885px;
+  margin-top: 10px;
+
+}
+.contact-content {
+  margin-top: 100px;
+}
+#trucazo {
+  opacity: 0;
+}
