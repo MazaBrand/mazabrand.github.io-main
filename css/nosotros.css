@@ -282,33 +282,48 @@ ul.show {
   margin-top: 100px;
 }
 .text_empresa {
-  margin-left: 720px;
-  margin-top: -200px;
+  position: relative;
+  margin-left: 710px;
+  margin-top: -181px;
+
 }
 
 .pp_text_empre {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 33px;
-  width: 85%;
+  font-size: 25px;
+  line-height: 27px;
+  width: 440px;
 }
+.line__empresa {
+  width: 600px;
+  height: 12px;
+  margin-left: 625px;
+  margin-top: -150px;
+}
+
+
+
 
 .blog {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 600px;
-  top: 2420px;
+  top: 2450px;
+}
+.blog-line {
+  margin-left: -1225px;
+  margin-top: -665px;
 }
 
 /* Contenedor Footer - Todo el footer*/
 .footer_all {
-  width: 1348px;
-  height: 199px;
-  left: 0px;
-  margin-top: 600px;
+  width: 1276px;
+  height: 198px;
+  margin-left: 40px;
+  margin-top: 800px;
   background: #d0ebfc;
 }
 /* Contenedor Footer - Container Texto footer*/
@@ -319,11 +334,11 @@ ul.show {
 }
 /* Contenedor Footer - Texto footer*/
 .footer_text {
-  position: absolute;
+  position: relative;
   width: 370px;
   height: 15px;
   left: 73px;
-  top: -60px;
+  top: -40px;
 
   font-family: "Metropolis";
   font-style: normal;
@@ -339,7 +354,6 @@ ul.show {
   height: 24px;
   left: 1201px;
   top: -70px;
-  cursor: pointer;
 }
 /* Contenedor Footer - Icono Linkend*/
 .icon-lk {
@@ -348,5 +362,12 @@ ul.show {
   height: 24px;
   left: 1239px;
   top: -70px;
-  cursor: pointer;
+}
+
+.siguenos {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1090px;
+  top: -109px;
 }

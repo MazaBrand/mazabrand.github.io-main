@@ -338,19 +338,10 @@ ul.show {
   color: #575756;
 }
 /* Contenedor contenedor - boton*/
-.btn_container3 {
-  width: 188.84px;
-  height: 37.85px;
-  left: 63px;
-}
+
+
 /* Contenedor contenedor - boton*/
-.btn4 {
-  position: absolute;
-  width: 188.84px;
-  height: 37.85px;
-  left: 120px;
-  top: 1830px;
-}
+
 /* Contenedor contenedor - imagen*/
 .container_images_seccion3 {
   position: absolute;
@@ -384,12 +375,12 @@ ul.show {
 
 /* Contenedor Blog - Linea*/
 .blog-line {
+ margin-left: -200px;
+ margin-top: -400px;
+}
+
+.line_ {
   position: absolute;
-  width: 101px;
-  height: 1px;
-  margin-left: 534px;
-  top: 30px;
-  background: #FF80CC;
 }
 /* Contenedor Blog - Caja*/
 
@@ -433,7 +424,6 @@ ul.show {
   height: 24px;
   left: 1201px;
   top: -70px;
-  cursor: pointer;
 }
 /* Contenedor Footer - Icono Linkend*/
 .icon-lk {
@@ -442,7 +432,6 @@ ul.show {
   height: 24px;
   left: 1239px;
   top: -70px;
-  cursor: pointer;
 }
 
 .siguenos {
