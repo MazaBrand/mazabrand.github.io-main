@@ -127,25 +127,12 @@ ul.show {
   position: absolute;
   width: 198.84px;
   height: 37.85px;
-  left: 48px;
+  left: 70px;
   right: 100px;
   top: 378px;
   z-index: 2;
 }
-/* Contenedor principal Boton */
-.btn {
-  padding: 14px 29px;
-  border: none;
-  background: #FF80CC;
-  color: black;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: 20px;
-  font-family: "Metropolis";
-  font-weight: 700;
-  width: 220px;
-}
+
 /* Contenedor principal Imagen */
 .container_images {
   position: relative;
@@ -208,27 +195,21 @@ ul.show {
 }
 /* Contenedor secundario Boton */
 .btn_container2 {
-  width: 188.84px;
-  height: 37.85px;
-  left: 63px;
-  top: 348px;
-}
-/* Contenedor secundario Boton  */
-.btn2 {
-  border: none;
-  background: #FFEC00;
-  color: black;
-  cursor: pointer;
-  position: absolute;
   width: 220px;
   height: 37.85px;
   left: 763px;
-  top: 850px;
-  font-size: 17px;
-  font-family: "Metropolis";
-  font-style: normal;
-  font-weight: 700;
+  top: 450px;
 }
+
+.btn2 {
+  position: absolute;
+  width: 220px;
+  height: 37.85px;
+  left: 739px;
+  top: 850px;
+}
+/* Contenedor secundario Boton  */
+
 /* Contenedor secundario Imagen container */
 .container_images2 {
   position: absolute;
@@ -363,21 +344,12 @@ ul.show {
   left: 63px;
 }
 /* Contenedor contenedor - boton*/
-.btn_seccion3 {
-  font-family: "Metropolis";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
+.btn4 {
   position: absolute;
-  width: 220px;
+  width: 188.84px;
   height: 37.85px;
   left: 120px;
-  top: 1850px;
-  border: none;
-  background: #3ECAED;
-  color: #000000;
-  cursor: pointer;
-  position: absolute;
+  top: 1830px;
 }
 /* Contenedor contenedor - imagen*/
 .container_images_seccion3 {
@@ -453,7 +425,7 @@ ul.show {
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
-  color: #000000;
+  color: #1D1D1B;
 }
 /* Contenedor Footer - Icono instagram*/
 .icon-ig {
@@ -474,6 +446,13 @@ ul.show {
   cursor: pointer;
 }
 
+.siguenos {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1090px;
+  top: -109px;
+}
 
 /* Responsive*/
 
