@@ -217,3 +217,25 @@ ul.show {
   left: 900px;
   color: #575756;
 }
+
+.acordeon {
+  position: absolute;
+  top: 1100px;
+  left: 600px;
+}
+
+.summay1 {
+  list-style: none;
+}
+
+.summay1::before {
+  content: "+";
+  padding-right: 1rem;
+  color: #FF80CC;
+}
+
+.detalles[open] .summay1::before {
+  content: "-";
+  color: #47AAF4;
+}
+

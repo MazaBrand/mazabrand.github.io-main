@@ -34,3 +34,12 @@ function handleSubmit(event) {
   $buttonMailto.setAttribute('href', `mailto:hola@mazabrand.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
   $buttonMailto.click()
 }
+
+
+const $acordeon = document.querySelectorAll('.sub-titles');
+
+for (let i = 0; i < $acordeon.length; i++) {
+    $acordeon[i].addEventListener('click', function () {
+        this.classList.toggle('active')
+    })
+}
