@@ -305,7 +305,7 @@ ul.show {
   height: 66px;
   border: 1px solid #FF80CC;
   outline: none;
-  margin-left: 885px;
+  margin-left: 810px;
   margin-top: 10px;
 
 }
@@ -366,4 +366,19 @@ ul.show {
   height: 100px;
   left: 1090px;
   top: -109px;
+}
+
+.politicas {
+  align-content: center;
+}
+
+.enviaruwu {
+  position: absolute;
+  left: 170px;
+}
+
+.politicas_link {
+  position: absolute;
+  left: 440px;
+  color: #3ecaed;
 }
