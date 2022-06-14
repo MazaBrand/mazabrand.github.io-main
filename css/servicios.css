@@ -80,3 +80,140 @@ body {
 ul.show {
   top: 65px;
 }
+
+
+/* Contenido */
+.text_encabezado {
+  position: absolute;
+  font-family: "Metropolis";
+  font-size: 30px;
+  width: 500px;
+  font-style: normal;
+  font-weight: bold;
+
+  left: 100px;
+  top: 100px;
+}
+
+.pp_text_encabezado {
+  position: absolute;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 640px;
+
+  top: 250px;
+  left: 150px;
+  color: #575756;
+}
+
+.pp2_text_encabezado {
+  position: absolute;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 640px;
+
+  top: 370px;
+  left: 150px;
+  color: #575756;
+}
+
+.img1 {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+}
+
+.text1 {
+  position: absolute;
+  top: 810px;
+  left: 100px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.text_pp_dea1{
+  position: absolute;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+
+  width: 315px;
+  top: 850px;
+  left: 100px;
+  color: #575756;
+}
+
+
+.img2 {
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+
+.text2 {
+  position: absolute;
+  top: 810px;
+  left: 500px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text_pp_dea2 {
+  position: absolute;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+
+  width: 315px;
+  top: 850px;
+  left: 500px;
+  color: #575756;
+}
+
+.img3 {
+  position: absolute;
+  top: 550px;
+  left: 900px;
+}
+
+.text3 {
+  position: absolute;
+  top: 810px;
+  left: 900px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text_pp_dea3 {
+  position: absolute;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+
+  width: 315px;
+  top: 850px;
+  left: 900px;
+  color: #575756;
+}
