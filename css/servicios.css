@@ -239,3 +239,20 @@ ul.show {
   color: #47AAF4;
 }
 
+
+.summay2 {
+  list-style: none;
+}
+
+.summay2::before {
+  content: "+";
+  padding-right: 1rem;
+  color: #FF80CC;
+}
+
+.detalles2[open] .summay2::before {
+  content: "-";
+  color: #47AAF4;
+}
+
+
