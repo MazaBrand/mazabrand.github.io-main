@@ -301,3 +301,51 @@ details p {
 
 }
 
+
+.text-ses {
+  position: absolute;
+  top: 1200px;
+  left: 100px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color:#ff80cc
+}
+
+.sesscion3 {
+  position: absolute;
+}
+
+.img_seccion3 {
+  position: relative;
+  left: 100px;
+  top: 200px;
+}
+
+.img__seccion3 {
+  position: relative;
+  left: 90px;
+  top: 200px;
+  width: 605px;
+  height: 246px;
+}
+
+.botn {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 670px;
+  top: 380px;
+}
+
+.pp_sesscon3 {
+  position: absolute;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  width: 510px;
+  left: 670px;
+}
